@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2677AF803949FE41E02F5709292FACDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2E413AC9C7271C8D5485547B9351FED6 /* Pods-RYLKVOHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C7157ED52B4395647BD437977D054C /* Pods-RYLKVOHelper_Example-dummy.m */; };
+		3FB9D6AF103F1C64485862EB2260EAD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		52BB245A1D3C010BAD2CCFC2EE13640E /* RYLKVOHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B28C114FCA6AD41F5F322F3C8C430A92 /* RYLKVOHelper-dummy.m */; };
+		570CF4493523A45B165D1E79F3DC6ECA /* RYLKVOHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D9408A94BC3D83516D3013FBCBC03F56 /* RYLKVOHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4CFCE846A5EC3472992F3495B7CEBD /* Pods-RYLKVOHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 541F83FF0D1895715E5D70561EAFAC71 /* Pods-RYLKVOHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBFD590B6846A2B75253EF31F0B67C09 /* RYLKVOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CF62907BDFD5634A0161B7F0D70EE7 /* RYLKVOHelper.m */; };
+		CA6B1B473566B99035CB79BE1D229BEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DF040FBC1D2CD67320A4D778666C4709 /* Pods-RYLKVOHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A53EE9A113D5345F0DC94EF719928 /* Pods-RYLKVOHelper_Tests-dummy.m */; };
+		ED006F29515AA2D79C2D24BA612D16D2 /* Pods-RYLKVOHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00D85EE684EF3CEF23AC8195FBB795C5 /* Pods-RYLKVOHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2592A24AB9E1A3984D9E81D812AF4BF /* RYLKVOHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F7F756D00999244972A7CFDF190F0EC /* RYLKVOHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53F6E11CB9245A010CEB79B542F69306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 400029E39E71195864EDF4A15062DBA4;
+			remoteInfo = "Pods-RYLKVOHelper_Example";
+		};
+		63229BC09AAE1D879E42C7E8654F0698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EF73585878F2DAD49BAE7B9B0EA5A0D;
+			remoteInfo = RYLKVOHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D85EE684EF3CEF23AC8195FBB795C5 /* Pods-RYLKVOHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYLKVOHelper_Example-umbrella.h"; sourceTree = "<group>"; };
+		04D7E2CBEB39D29E7DBCEFD92AFA6DF5 /* Pods-RYLKVOHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYLKVOHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1DDBD7A341FC3B6BB28DE861BE242E03 /* RYLKVOHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RYLKVOHelper-Info.plist"; sourceTree = "<group>"; };
+		26C9010CB1488B6146B79D3AD8009D77 /* Pods-RYLKVOHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYLKVOHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C5A97B0EE18BC3FA1BF819EBEF903D7 /* RYLKVOHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RYLKVOHelper.framework; path = RYLKVOHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAF547A0FB1541A129ED82A196409B4 /* Pods-RYLKVOHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYLKVOHelper_Example.modulemap"; sourceTree = "<group>"; };
+		3F7F756D00999244972A7CFDF190F0EC /* RYLKVOHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYLKVOHelper-umbrella.h"; sourceTree = "<group>"; };
+		43B78C7F00C2209A509A4EE9CC26060C /* Pods_RYLKVOHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYLKVOHelper_Example.framework; path = "Pods-RYLKVOHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		541F83FF0D1895715E5D70561EAFAC71 /* Pods-RYLKVOHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYLKVOHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5614557EC12C0287C00454552536DD6D /* Pods-RYLKVOHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYLKVOHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		65B1EF5411599C927681FAEED08FE43B /* Pods-RYLKVOHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYLKVOHelper_Tests.modulemap"; sourceTree = "<group>"; };
+		6B2BD9BAFBDE700A249F3643D255DB2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6C4E2942CACCF910CFBA7A4DDA1ECAAA /* Pods-RYLKVOHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYLKVOHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6CD0FC63718E996DB050BC6AA74F30AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		87C64563EF132D1C49AA38D999627400 /* Pods-RYLKVOHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYLKVOHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8C2BB5A9252085AE5A7BB1E8B70469B9 /* RYLKVOHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RYLKVOHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F676B30EC033A3F1C9315B9DAEF394E /* Pods-RYLKVOHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYLKVOHelper_Example-Info.plist"; sourceTree = "<group>"; };
+		9135C041BD8B7B8D8C043C24E9DF5E5D /* Pods-RYLKVOHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYLKVOHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93AFE3BB065143F7776DF9AD30556BE2 /* Pods-RYLKVOHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYLKVOHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		95CF62907BDFD5634A0161B7F0D70EE7 /* RYLKVOHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYLKVOHelper.m; path = RYLKVOHelper/Classes/RYLKVOHelper.m; sourceTree = "<group>"; };
+		9A1A53EE9A113D5345F0DC94EF719928 /* Pods-RYLKVOHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYLKVOHelper_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B28C114FCA6AD41F5F322F3C8C430A92 /* RYLKVOHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYLKVOHelper-dummy.m"; sourceTree = "<group>"; };
+		B93E5FE835833660FBB0E71123A6FF0E /* Pods-RYLKVOHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYLKVOHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C2C7157ED52B4395647BD437977D054C /* Pods-RYLKVOHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYLKVOHelper_Example-dummy.m"; sourceTree = "<group>"; };
+		CE54210B6EDE78A0616FBB0AC62CB4B5 /* Pods-RYLKVOHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYLKVOHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D65AF6EF7807BA5A29E66711224A2574 /* RYLKVOHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYLKVOHelper-prefix.pch"; sourceTree = "<group>"; };
+		D6FD7AA62E74EBE2DCB74989DEFB6EB7 /* Pods_RYLKVOHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYLKVOHelper_Tests.framework; path = "Pods-RYLKVOHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9408A94BC3D83516D3013FBCBC03F56 /* RYLKVOHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYLKVOHelper.h; path = RYLKVOHelper/Classes/RYLKVOHelper.h; sourceTree = "<group>"; };
+		E1D092A7953D480ED9899B0A8F097449 /* RYLKVOHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYLKVOHelper.xcconfig; sourceTree = "<group>"; };
+		E4C99E160F2C882943886250091433E8 /* Pods-RYLKVOHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYLKVOHelper_Tests-Info.plist"; sourceTree = "<group>"; };
+		FB5E933305C8822B70037C2BC5AD5544 /* RYLKVOHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RYLKVOHelper.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A73528FF2C660D2F74F9F77A9E7CAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB9D6AF103F1C64485862EB2260EAD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3D3EC9785412A6E5F12ACC9CF81754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2677AF803949FE41E02F5709292FACDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC65FC11DAA14CD9F68716E8ADD980B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6B1B473566B99035CB79BE1D229BEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0448482ECD248E12CC1CD210A6F815D8 /* RYLKVOHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D9408A94BC3D83516D3013FBCBC03F56 /* RYLKVOHelper.h */,
+				95CF62907BDFD5634A0161B7F0D70EE7 /* RYLKVOHelper.m */,
+				5DEA113799BD0CABDBA8FBA036931A1E /* Pod */,
+				779A0717BD827B95AA74B78665513259 /* Support Files */,
+			);
+			name = RYLKVOHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		24C80054C3FF786EFE16A95F9F506EF5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0448482ECD248E12CC1CD210A6F815D8 /* RYLKVOHelper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		46E30EBF46CAFE90B19CA0B2F6331710 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F45D533B2CC3F868BD332C7B12952C8A /* Pods-RYLKVOHelper_Example */,
+				958B0F70B774EAA3952E0D50526CC747 /* Pods-RYLKVOHelper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5DEA113799BD0CABDBA8FBA036931A1E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6CD0FC63718E996DB050BC6AA74F30AF /* LICENSE */,
+				6B2BD9BAFBDE700A249F3643D255DB2D /* README.md */,
+				8C2BB5A9252085AE5A7BB1E8B70469B9 /* RYLKVOHelper.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		779A0717BD827B95AA74B78665513259 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB5E933305C8822B70037C2BC5AD5544 /* RYLKVOHelper.modulemap */,
+				E1D092A7953D480ED9899B0A8F097449 /* RYLKVOHelper.xcconfig */,
+				B28C114FCA6AD41F5F322F3C8C430A92 /* RYLKVOHelper-dummy.m */,
+				1DDBD7A341FC3B6BB28DE861BE242E03 /* RYLKVOHelper-Info.plist */,
+				D65AF6EF7807BA5A29E66711224A2574 /* RYLKVOHelper-prefix.pch */,
+				3F7F756D00999244972A7CFDF190F0EC /* RYLKVOHelper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RYLKVOHelper";
+			sourceTree = "<group>";
+		};
+		958B0F70B774EAA3952E0D50526CC747 /* Pods-RYLKVOHelper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				65B1EF5411599C927681FAEED08FE43B /* Pods-RYLKVOHelper_Tests.modulemap */,
+				6C4E2942CACCF910CFBA7A4DDA1ECAAA /* Pods-RYLKVOHelper_Tests-acknowledgements.markdown */,
+				93AFE3BB065143F7776DF9AD30556BE2 /* Pods-RYLKVOHelper_Tests-acknowledgements.plist */,
+				9A1A53EE9A113D5345F0DC94EF719928 /* Pods-RYLKVOHelper_Tests-dummy.m */,
+				E4C99E160F2C882943886250091433E8 /* Pods-RYLKVOHelper_Tests-Info.plist */,
+				541F83FF0D1895715E5D70561EAFAC71 /* Pods-RYLKVOHelper_Tests-umbrella.h */,
+				26C9010CB1488B6146B79D3AD8009D77 /* Pods-RYLKVOHelper_Tests.debug.xcconfig */,
+				87C64563EF132D1C49AA38D999627400 /* Pods-RYLKVOHelper_Tests.release.xcconfig */,
+			);
+			name = "Pods-RYLKVOHelper_Tests";
+			path = "Target Support Files/Pods-RYLKVOHelper_Tests";
+			sourceTree = "<group>";
+		};
+		B34DFBD4E1714B39129EFF589C16A184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43B78C7F00C2209A509A4EE9CC26060C /* Pods_RYLKVOHelper_Example.framework */,
+				D6FD7AA62E74EBE2DCB74989DEFB6EB7 /* Pods_RYLKVOHelper_Tests.framework */,
+				3C5A97B0EE18BC3FA1BF819EBEF903D7 /* RYLKVOHelper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				24C80054C3FF786EFE16A95F9F506EF5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B34DFBD4E1714B39129EFF589C16A184 /* Products */,
+				46E30EBF46CAFE90B19CA0B2F6331710 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F45D533B2CC3F868BD332C7B12952C8A /* Pods-RYLKVOHelper_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF547A0FB1541A129ED82A196409B4 /* Pods-RYLKVOHelper_Example.modulemap */,
+				CE54210B6EDE78A0616FBB0AC62CB4B5 /* Pods-RYLKVOHelper_Example-acknowledgements.markdown */,
+				5614557EC12C0287C00454552536DD6D /* Pods-RYLKVOHelper_Example-acknowledgements.plist */,
+				C2C7157ED52B4395647BD437977D054C /* Pods-RYLKVOHelper_Example-dummy.m */,
+				9135C041BD8B7B8D8C043C24E9DF5E5D /* Pods-RYLKVOHelper_Example-frameworks.sh */,
+				8F676B30EC033A3F1C9315B9DAEF394E /* Pods-RYLKVOHelper_Example-Info.plist */,
+				00D85EE684EF3CEF23AC8195FBB795C5 /* Pods-RYLKVOHelper_Example-umbrella.h */,
+				B93E5FE835833660FBB0E71123A6FF0E /* Pods-RYLKVOHelper_Example.debug.xcconfig */,
+				04D7E2CBEB39D29E7DBCEFD92AFA6DF5 /* Pods-RYLKVOHelper_Example.release.xcconfig */,
+			);
+			name = "Pods-RYLKVOHelper_Example";
+			path = "Target Support Files/Pods-RYLKVOHelper_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		65E61B2EB3834A3BC6ECDACF955C7147 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4CFCE846A5EC3472992F3495B7CEBD /* Pods-RYLKVOHelper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C1C4334CDDE8EBC7373F755C2D3EFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED006F29515AA2D79C2D24BA612D16D2 /* Pods-RYLKVOHelper_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94273CE571583DD28D8101993210674F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2592A24AB9E1A3984D9E81D812AF4BF /* RYLKVOHelper-umbrella.h in Headers */,
+				570CF4493523A45B165D1E79F3DC6ECA /* RYLKVOHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		400029E39E71195864EDF4A15062DBA4 /* Pods-RYLKVOHelper_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366BDED2BC70DC6FAF3BD1D3998EAD5C /* Build configuration list for PBXNativeTarget "Pods-RYLKVOHelper_Example" */;
+			buildPhases = (
+				83C1C4334CDDE8EBC7373F755C2D3EFE /* Headers */,
+				5C42B7005547CFF6E37350749D8FC0C3 /* Sources */,
+				5A73528FF2C660D2F74F9F77A9E7CAA4 /* Frameworks */,
+				9570E6B3FC955FE04DB42C45627FF9A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B715EBCD1A1E8FFD602A898E1648C42 /* PBXTargetDependency */,
+			);
+			name = "Pods-RYLKVOHelper_Example";
+			productName = "Pods-RYLKVOHelper_Example";
+			productReference = 43B78C7F00C2209A509A4EE9CC26060C /* Pods_RYLKVOHelper_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5EF73585878F2DAD49BAE7B9B0EA5A0D /* RYLKVOHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E1424F4E305F55FE912B2CAAA11EFD /* Build configuration list for PBXNativeTarget "RYLKVOHelper" */;
+			buildPhases = (
+				94273CE571583DD28D8101993210674F /* Headers */,
+				036BA04776F799D195FE6A5E3E509CE9 /* Sources */,
+				EC3D3EC9785412A6E5F12ACC9CF81754 /* Frameworks */,
+				3739EF4775DC9CB080CCE5A49815C9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RYLKVOHelper;
+			productName = RYLKVOHelper;
+			productReference = 3C5A97B0EE18BC3FA1BF819EBEF903D7 /* RYLKVOHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		819804547DA1E80415B1A3D1B4B28028 /* Pods-RYLKVOHelper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E196444510D39A431D8492A6077B47B6 /* Build configuration list for PBXNativeTarget "Pods-RYLKVOHelper_Tests" */;
+			buildPhases = (
+				65E61B2EB3834A3BC6ECDACF955C7147 /* Headers */,
+				D51BDACDEF26361D08958D5B757DC153 /* Sources */,
+				EDC65FC11DAA14CD9F68716E8ADD980B /* Frameworks */,
+				D819A3E029CD218BEA23B70310D2B680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6B7E3E5D70944D2A2245439C2AA710 /* PBXTargetDependency */,
+			);
+			name = "Pods-RYLKVOHelper_Tests";
+			productName = "Pods-RYLKVOHelper_Tests";
+			productReference = D6FD7AA62E74EBE2DCB74989DEFB6EB7 /* Pods_RYLKVOHelper_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B34DFBD4E1714B39129EFF589C16A184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				400029E39E71195864EDF4A15062DBA4 /* Pods-RYLKVOHelper_Example */,
+				819804547DA1E80415B1A3D1B4B28028 /* Pods-RYLKVOHelper_Tests */,
+				5EF73585878F2DAD49BAE7B9B0EA5A0D /* RYLKVOHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3739EF4775DC9CB080CCE5A49815C9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9570E6B3FC955FE04DB42C45627FF9A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D819A3E029CD218BEA23B70310D2B680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036BA04776F799D195FE6A5E3E509CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BB245A1D3C010BAD2CCFC2EE13640E /* RYLKVOHelper-dummy.m in Sources */,
+				BBFD590B6846A2B75253EF31F0B67C09 /* RYLKVOHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C42B7005547CFF6E37350749D8FC0C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E413AC9C7271C8D5485547B9351FED6 /* Pods-RYLKVOHelper_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51BDACDEF26361D08958D5B757DC153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF040FBC1D2CD67320A4D778666C4709 /* Pods-RYLKVOHelper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F6B7E3E5D70944D2A2245439C2AA710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RYLKVOHelper_Example";
+			target = 400029E39E71195864EDF4A15062DBA4 /* Pods-RYLKVOHelper_Example */;
+			targetProxy = 53F6E11CB9245A010CEB79B542F69306 /* PBXContainerItemProxy */;
+		};
+		9B715EBCD1A1E8FFD602A898E1648C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RYLKVOHelper;
+			target = 5EF73585878F2DAD49BAE7B9B0EA5A0D /* RYLKVOHelper */;
+			targetProxy = 63229BC09AAE1D879E42C7E8654F0698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34259BDE0C85F2C7E758C96A34E78542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04D7E2CBEB39D29E7DBCEFD92AFA6DF5 /* Pods-RYLKVOHelper_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYLKVOHelper_Example/Pods-RYLKVOHelper_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RYLKVOHelper_Example/Pods-RYLKVOHelper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35FD5C28153F620F9FA22C5B85DBC489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26C9010CB1488B6146B79D3AD8009D77 /* Pods-RYLKVOHelper_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYLKVOHelper_Tests/Pods-RYLKVOHelper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RYLKVOHelper_Tests/Pods-RYLKVOHelper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		64B702D0F7C142EB551EE1B24C362D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D092A7953D480ED9899B0A8F097449 /* RYLKVOHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RYLKVOHelper/RYLKVOHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RYLKVOHelper/RYLKVOHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RYLKVOHelper/RYLKVOHelper.modulemap";
+				PRODUCT_MODULE_NAME = RYLKVOHelper;
+				PRODUCT_NAME = RYLKVOHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F747A7DE9CD7BB4F754CE5A8800BF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D092A7953D480ED9899B0A8F097449 /* RYLKVOHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RYLKVOHelper/RYLKVOHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RYLKVOHelper/RYLKVOHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RYLKVOHelper/RYLKVOHelper.modulemap";
+				PRODUCT_MODULE_NAME = RYLKVOHelper;
+				PRODUCT_NAME = RYLKVOHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF79B971E45F04ACD706175777D6BBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B93E5FE835833660FBB0E71123A6FF0E /* Pods-RYLKVOHelper_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYLKVOHelper_Example/Pods-RYLKVOHelper_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RYLKVOHelper_Example/Pods-RYLKVOHelper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B134AD99F6B61A141B1B5ABF7B3BF0A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C64563EF132D1C49AA38D999627400 /* Pods-RYLKVOHelper_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYLKVOHelper_Tests/Pods-RYLKVOHelper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RYLKVOHelper_Tests/Pods-RYLKVOHelper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		366BDED2BC70DC6FAF3BD1D3998EAD5C /* Build configuration list for PBXNativeTarget "Pods-RYLKVOHelper_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF79B971E45F04ACD706175777D6BBFD /* Debug */,
+				34259BDE0C85F2C7E758C96A34E78542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E1424F4E305F55FE912B2CAAA11EFD /* Build configuration list for PBXNativeTarget "RYLKVOHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F747A7DE9CD7BB4F754CE5A8800BF04 /* Debug */,
+				64B702D0F7C142EB551EE1B24C362D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E196444510D39A431D8492A6077B47B6 /* Build configuration list for PBXNativeTarget "Pods-RYLKVOHelper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FD5C28153F620F9FA22C5B85DBC489 /* Debug */,
+				B134AD99F6B61A141B1B5ABF7B3BF0A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

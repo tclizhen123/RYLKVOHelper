@@ -1,0 +1,16 @@
+PODS:
+  - RYLKVOHelper (0.1.0)
+
+DEPENDENCIES:
+  - RYLKVOHelper (from `../`)
+
+EXTERNAL SOURCES:
+  RYLKVOHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RYLKVOHelper: 88d5116d70365bf8f1b952cdcfb292b5cdc2e931
+
+PODFILE CHECKSUM: b69052cfc2cb40bce98f2d0e6de0d0db08e1168c
+
+COCOAPODS: 1.8.4

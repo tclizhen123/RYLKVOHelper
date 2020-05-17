@@ -1,0 +1,22 @@
+{
+  "name": "RYLKVOHelper",
+  "version": "0.1.0",
+  "summary": "A short description of RYLKVOHelper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lizhen21/RYLKVOHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lizhen21": "lizhen21@meituan.com"
+  },
+  "source": {
+    "git": "https://github.com/lizhen21/RYLKVOHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RYLKVOHelper/Classes/**/*"
+}
