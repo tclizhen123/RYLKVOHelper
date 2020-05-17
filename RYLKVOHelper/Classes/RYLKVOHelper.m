@@ -106,13 +106,11 @@ typedef void(^RYLKVOBlock)(NSDictionary *change);
 }
 
 -(void ) dealloc{
-    __weak typeof (self) wself = self;
-    dispatch_barrier_async(_rwqueue, ^{
-        __strong typeof (wself) sself = wself;
-        for (id target in sself.mapTable.keyEnumerator){
-            NSDictionary *dict = [sself.mapTable objectForKey:target];
+    dispatch_barrier_sync(_rwqueue, ^{
+        for (id target in self.mapTable.keyEnumerator){
+            NSDictionary *dict = [self.mapTable objectForKey:target];
             for (NSString *key in dict.allKeys.objectEnumerator){
-                [target removeObserver:sself forKeyPath:key];
+                [target removeObserver:self forKeyPath:key];
             }
         }
     });

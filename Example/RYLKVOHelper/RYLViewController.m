@@ -90,8 +90,6 @@
     [self.testTarget unregisterWithObserver:self.testObserver key:@"test"];
 }
 
-
-
 - (IBAction)testGeekBench:(id)sender {
     
     NSTimeInterval start = [[NSDate date] timeIntervalSince1970];
